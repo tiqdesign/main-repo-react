@@ -471,7 +471,7 @@ cursor: pointer;
         animation-play-state: running;
         animation: turnbaby 1s infinite ;
       }
-      @-webkit-keyframes turnbaby {
+      @keyframes turnbaby {
         0% {  transform: rotate(0deg);  }
      
         100% {  transform: rotate(360deg);  }
