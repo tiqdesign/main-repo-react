@@ -225,6 +225,7 @@ margin-top: -10em;
   flex-wrap: wrap;
   width: 100%;
   justify-content: center;
+
 }
 
 .team_container:first-child{
@@ -372,8 +373,8 @@ cursor: pointer;
       .help_tip:hover p{
           display:block;
           transform-origin: 100% 0%;
-          -webkit-animation: fadeIn 0.3s ease;
           animation: fadeIn 0.3s ease;
+         
       }
       
       /* The tooltip */
@@ -520,7 +521,7 @@ cursor: pointer;
   background: url(../public/clouds.png)  top center / 1923px 650px repeat-x  ;
  
   padding-bottom: 3em;
-  height: 750px;
+
 
 }
 
@@ -538,11 +539,19 @@ cursor: pointer;
   100% {transform:translateY(-15px);  }
 }
 
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+.screen{
+  right:-20vw;
+  left:auto;
+  height: 28px;
+
+}
+
+}
 
 
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
   .banner_mint_button{ 
     order:-1;
    font-size: 24px;
@@ -623,4 +632,60 @@ cursor: pointer;
     top: -12vw ;  
     height: 2.8vw;
   }
+}
+
+
+
+@media only screen and (min-width: 1921px) {
+
+  .banner_links_container h5{
+  
+    font-size: 1.4vw;
+  }
+
+  .info_area{
+margin-top: 15em;
+  }
+  .info_area img{
+height: 26vw;
+  }
+  .info_area h3{
+    font-size: 2.1vw;
+    
+  }
+  .info_area p{
+    font-size: 2vw;
+
+  }
+  .info_area2 h3{
+    font-size: 2.1vw;
+  }
+  .info_area2 p{
+    font-size: 2vw;
+  }
+
+  .info_image{
+  height: 26vw;
+  }
+
+
+.fly_container div{
+font-size: 4.6vw;
+}
+
+@keyframes flying {
+  0%   {left:2940px; top:700px;}
+  25%  {left:1800px; top:-150px;}
+  50%  {  top:200px;}
+  75%  {  top:-20px;}
+  100% {left:-60px; top:0px;}
+}
+
+.team_container{
+  margin-top: 9em;
+  transform: scale(1.2);
+  overflow: hidden;
+
+}
+
 }
