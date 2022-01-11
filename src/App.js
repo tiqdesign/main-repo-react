@@ -172,7 +172,7 @@ Peaceful Toadz is the Peaceful Groupies & cryptToadz crossover project that aims
 
   </p>
 </span>
-<img src="tarik.png" alt="nft" height="250px"/>
+<img src="tarik.jpg" alt="nft" height="250px"/>
 <h4>Developer</h4>
 <h4> &nbsp;</h4>
 
