@@ -382,7 +382,7 @@ cursor: pointer;
         display: none;
         font-family: sans-serif;
         text-rendering: optimizeLegibility;
-        -webkit-font-smoothing: antialiased;
+    
         text-align: center;
         background-color: #FFFFFF;
         padding: 12px 16px;
@@ -439,7 +439,7 @@ cursor: pointer;
       
       
       /* CSS animation */
-      @-webkit-keyframes fadeIn {
+      @keyframes fadeIn {
           0% { opacity:0; }
           100% { opacity:100%; }
       }
@@ -639,9 +639,10 @@ cursor: pointer;
 @media only screen and (min-width: 1921px) {
 
   .banner_links_container h5{
-  
+  margin-top: -1.3em;
     font-size: 1.4vw;
   }
+
 
   .info_area{
 margin-top: 15em;
@@ -663,7 +664,9 @@ height: 26vw;
   .info_area2 p{
     font-size: 2vw;
   }
-
+.info_area2 img{
+width: 65%;
+}
   .info_image{
   height: 26vw;
   }
@@ -671,6 +674,7 @@ height: 26vw;
 
 .fly_container div{
 font-size: 4.6vw;
+padding-top: 25em;
 }
 
 @keyframes flying {
@@ -685,12 +689,25 @@ font-size: 4.6vw;
   margin-top: 9em;
   transform: scale(1.2);
   overflow: hidden;
-
+padding-bottom: 2em;
 }
 
 .footer{
   font-size: 1vw;
 }
+
+.cloud_container{
+  background: url(../public/clouds.png)  top center / 125.19vw 42.3vw repeat-x  ;
+ 
+  padding-bottom: 3em;
+
+
+}
+
+.info_container{
+  margin-top: -30em;
+}
+
 
 
 }
