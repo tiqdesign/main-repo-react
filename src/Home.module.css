@@ -134,7 +134,7 @@ font-weight: 100;
   animation-name: flying;
   animation-duration: 2s;
   position: relative;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite ;
 }
 @keyframes flying {
   0%   {left:1940px; top:700px;}
@@ -491,8 +491,8 @@ cursor: pointer;
       animation-timing-function: linear !important;
       animation-delay: 0s;
       animation-play-state: running;
-      animation: flylikeabird 5s infinite ease-in-out  ;
-      animation-direction: alternate-reverse;
+      animation: flylikeabird 5s infinite ease-in-out alternate-reverse ;
+ 
     }
 
     @keyframes flylikeabird {
@@ -507,8 +507,8 @@ cursor: pointer;
     animation-timing-function: linear !important;
     animation-delay: 0s;
     animation-play-state: running;
-    animation: flylikeaneagle 10s infinite ease-in-out ;
-    animation-direction: alternate-reverse;
+    animation: flylikeaneagle 10s infinite ease-in-out  alternate-reverse ;
+  
 
   }
   @keyframes flylikeaneagle {
@@ -530,8 +530,8 @@ cursor: pointer;
   animation-timing-function: linear !important;
   animation-delay: 0s;
   animation-play-state: running;
-  animation: flylikeafly 10s infinite ease-in-out ;
-  animation-direction: alternate-reverse;
+  animation: flylikeafly 10s infinite ease-in-out  alternate-reverse;
+
 }
 @keyframes flylikeafly {
   0% {  transform:translateY(15px);}
